@@ -3,25 +3,18 @@
 ## Instructions
 
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
-   ```
 
 2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+
+   - Goto `frontend` folder.
+   - Run `npm i`
 
 3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
 
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
+   - Goto `backend` folder.
+   - Run `npm i`
 
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
+4. **Final Step**
 
----
-
+   - Goto frontend folder run `npm run dev` to start both `frontend` and `backend`.
+   - Make sure to add data `Mongo Uri ` in `.env` file.
