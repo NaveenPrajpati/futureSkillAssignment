@@ -1,0 +1,36 @@
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--textPrimary);
+}
+
+.submit-request-btn {
+  background-color: black;
+  color: var(--textPrimary);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: var(--textPrimary) 1px solid;
+  border-radius: 6px;
+}
+
+.submit-request-btn:hover {
+  background-color: #444;
+}
